@@ -1,0 +1,80 @@
+﻿.sm {
+	font-family: "Arial Unicode MS";
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	z-index: 1;
+	background-color: #000000;
+	position: relative;
+	background-image: url("DBlinkie.gif");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	color: #7D966E;
+	text-align: center;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+body > #wrapper {
+	height: 100%;
+	margin: 0 auto;
+	text-align: left;
+}
+body > #wrapper > #header {
+	z-index: 3;
+	top: 0;
+	width: 100%;
+	height: 150px;
+	border-bottom: thin #7EB755 solid;
+}
+body > #wrapper > #header > #banner {
+	left: 25%;
+	position: fixed;
+}
+body > #wrapper > #container {
+	z-index: 2;
+	position: fixed;
+	overflow: auto;
+	top: 175px;
+	left: 175px;
+	right: 5%;
+	bottom: 35px;
+	padding-right: 15px;
+	vertical-align:top;
+	border-bottom: thin #7EB755 solid;
+
+}
+body > #wrapper > #right {
+	border-right: thin #7EB755 solid;
+	position: relative;
+	width: 140px;
+	height: 100%;
+	padding: 5px;
+}
+body > #wrapper > #container > #status {
+	text-align: justify;
+	vertical-align: top;
+	padding: 25px;
+}
+body > #wrapper > #right > #navigation {
+	float: left;
+	top: 175px;
+	width:inherit;
+}
+body > #wrapper > #right > #footer {
+	position:fixed;
+	bottom: 25px;
+	font-size:8pt;
+	width:inherit;
+}
+a, a:visited {
+	color: #7D966E;
+}
+a:hover {
+	color: #7EB755;
+}
+h2 {
+	color: #7EB755;
+}
